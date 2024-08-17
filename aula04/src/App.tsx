@@ -7,11 +7,16 @@
  * 5 - Antes da palavra reservada function devemos adicionar a directiva export default para informar ao registrador que aquele componente pode ser visto, lido e importado por qualquer outro componente dentro do projeto.Ex: export default function
  * 
  */
+import Cabecalho from "./components/Cabecalho/Cabecalho";
+import Conteudo from "./components/Conteudo/Conteudo";
+import Rodape from "./components/Rodape/Rodape";
 
 export default function App() {
   return(
     <div>
-      <h1>Componente App</h1>
+      <Cabecalho/>
+      <Conteudo/>
+      <Rodape/>   
     </div>
   );
 }
