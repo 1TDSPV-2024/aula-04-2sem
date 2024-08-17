@@ -10,10 +10,11 @@
 import Cabecalho from "./components/Cabecalho/Cabecalho";
 import Conteudo from "./components/Conteudo/Conteudo";
 import Rodape from "./components/Rodape/Rodape";
+import styles from "./css/App.module.css";
 
 export default function App() {
   return(
-    <div>
+    <div className={styles.container}>
       <Cabecalho/>
       <Conteudo/>
       <Rodape/>   

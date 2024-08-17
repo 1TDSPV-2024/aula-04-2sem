@@ -1,5 +1,7 @@
 export default function Lista(){
+
     const nomes = ["Joaquim da Selva Xavier","Joel Jorge de Mello","Juca Bala"];
+    
     return(
 
         <ul>
